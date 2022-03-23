@@ -1,4 +1,4 @@
-<p align="center"><img src="https://raw.githubusercontent.com/titaniumnetwork-dev/ultraviolet-static/main/uv.png" height="200">
+<p align="center"><img src="https://github.com/wtsalt/assets/blob/main/image-removebg-preview.png?raw=true" height="200">
 </p>
 
 <h1 align="center">Ultraviolet-Node</h1>
