@@ -1,7 +1,7 @@
 <p align="center"><img src="https://github.com/wtsalt/assets/blob/main/image-removebg-preview.png?raw=true" height="200">
 </p>
 
-<h1 align="center">Ultraviolet-Node</h1>
+<h1 align="center">UV Ray</h1>
 
 <p align="center">The deployable version of Ultraviolet, a highly sophisticated proxy used for evading internet censorship or accessing websites in a controlled sandbox using the power of service-workers and more!<br><br></p>
 
