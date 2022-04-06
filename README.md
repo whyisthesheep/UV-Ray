@@ -3,7 +3,7 @@
 
 <h1 align="center">UV Ray</h1>
 
-<p align="center">The deployable version of Ultraviolet, a highly sophisticated proxy used for evading internet censorship or accessing websites in a controlled sandbox using the power of service-workers and more!<br><br></p>
+<p align="center">Modified version of Ultraviolet, a highly sophisticated proxy used for evading internet censorship or accessing websites in a controlled sandbox using the power of service-workers and more!<br><br></p>
 
 ## Quick Deployments
 [![Deploy to Heroku](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/heroku.svg)](https://heroku.com/deploy/?template=https://github.com/whyisthesheep/UV-Ray))
@@ -54,8 +54,8 @@ Installation of Ultraviolet is simple. You can find a Tl;DR of the installation 
 ## Basic Guide
 
 ```sh
-$ git clone https://github.com/titaniumnetwork-dev/Ultraviolet-Node --recursive
-$ cd Ultraviolet-Node
+$ git clone https://github.com/whyisthesheep/UV-Ray --recursive
+$ cd UV-Ray
 $ npm install
 $ npm start
 ```
@@ -80,7 +80,7 @@ Below will describe a comprehensive guide to install Ultraviolet on Linux machin
 To clone the repository, simply run the following command:
 
 ```sh
-$ git clone https://github.com/titaniumnetwork-dev/Ultraviolet-Node --recursive
+$ git clone https://github.com/whyisthesheep/UV-Ray --recursive
 ```
 
 The `--recursive` flag will clone the repository and all submodules.
@@ -88,7 +88,7 @@ The `--recursive` flag will clone the repository and all submodules.
 To begin work on the actual setup, cd into the repository. You can do so by running the following command:
 
 ```sh
-$ cd Ultraviolet-Node
+$ cd UV-Ray
 ```
 
 From here, you can update your submodules and install your dependencies. To do so, run the following command:
@@ -97,18 +97,18 @@ From here, you can update your submodules and install your dependencies. To do s
 $ npm install
 ```
 
-Finally, to start Ultraviolet, run the following command:
+Finally, to start UV Ray, run the following command:
 
 ```sh
 $ npm start
 ```
 
-You can then find Ultraviolet on `http://127.0.0.1:8080`. If you would like to change the port UV will be running on, edit the last line in `index.mjs`. 
+You can then find UV Ray on `http://127.0.0.1:8080`. If you would like to change the port UV will be running on, edit the last line in `index.mjs`. 
 
-Please note that UV will not function without HTTPS. If you are hosting on Replit or Heroku, this won't be a problem as they provide you with SSL/TLS by default and will automatically apply it to your instance, however if you are attempting to host UV on a different platform, such as a personal server, you **WILL** need to use HTTPS. 
+Please note that UV Ray will not function without HTTPS. If you are hosting on Replit or Heroku, this won't be a problem as they provide you with SSL/TLS by default and will automatically apply it to your instance, however if you are attempting to host UV on a different platform, such as a personal server, you **WILL** need to use HTTPS. 
 
 ## Configuration
-Configuring Ultraviolet is very simple. Simple descriptions of each configurable option are provided as a comment in the block below. More detailed documentation can be found just below mentioned block.
+Configuring Ultraviolet (proxy) is very simple. Simple descriptions of each configurable option are provided as a comment in the block below. More detailed documentation can be found just below mentioned block.
 
 `uv.config.js`
 
@@ -135,10 +135,6 @@ self.__uv$config = {
 | Bundle | Bundle is the path to the UV bundle file. The default name and path to this file is `static/uv/uv.bundle.js`. |
 | Config | Config is the path to the UV config file. The default name and path to this file is `static/uv/uv.bundle.js`. |
 | SW | SW is the path to the UV Service Worker script. The default name and path to this file is `static/uv/uv.sw.js`. |
-
-## Static Files
-
-Static files is the frontend for Ultraviolet. A standalone repository for it can be found [here](https://github.com/titaniumnetwork-dev/Ultraviolet-Static).
 
 ## Core Scripts
 
